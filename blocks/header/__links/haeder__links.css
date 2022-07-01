@@ -1,4 +1,6 @@
 .header__links {
+    margin-bottom: 0;
+    margin-right: 3%;
     display: flex;
     list-style-type: none;
 }

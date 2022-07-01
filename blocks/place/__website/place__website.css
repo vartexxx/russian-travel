@@ -4,3 +4,12 @@
     grid-row: 1;
     grid-column: 2;
 }
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        grid-column: 1;
+        grid-row: 2;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

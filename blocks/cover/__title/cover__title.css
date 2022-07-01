@@ -13,3 +13,25 @@
     align-self: start;
     z-index: 1;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin: calc(100%/5) auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: calc(100%/6.5) auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 109%;
+        margin: calc(100%/8) auto 0;
+    }
+}

@@ -6,3 +6,12 @@
     font-weight: 400;
     color: #fff;
 }
+
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        line-height: 100%;
+        margin-top: 48px;
+        align-self: start;
+    }
+}

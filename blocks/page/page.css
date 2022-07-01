@@ -1,5 +1,33 @@
 .page {
+    box-sizing: border-box;
     background-color: #2A2C2F;
     max-width: 1280px;
-    max-height: 6875px;
+    max-height: 100%;
+    font-family: 'Inter', 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-height: 7000px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        max-height: 100%;
+    }
 }

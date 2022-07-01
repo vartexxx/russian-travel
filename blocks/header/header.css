@@ -1,9 +1,37 @@
 .header {
     display: flex;
     justify-content: space-between;
-    border: 1px red;
     max-width: 1184px;
     max-height: 52px;
     margin: 0 auto;
     padding-top: 28px;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+    }
+}
+
+/* 425 */
+@media screen and (max-width: 425px) {
+    .header {
+        max-width: 370px;
+    }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 16px;
+        max-width: calc(100% - 30px);
+    }
 }
