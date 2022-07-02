@@ -9,11 +9,9 @@
     opacity: 1;
 }
 
-
 .footer__column-link:hover {
     opacity: .5;
 }
-
 
 @media screen and (max-width: 320px) {
     .footer__column-link {
