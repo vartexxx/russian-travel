@@ -1,5 +1,8 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 758px) {
     .footer__column-li {
-        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .footer__column-li:last-of-type {
+        margin: 0;
     }
 }

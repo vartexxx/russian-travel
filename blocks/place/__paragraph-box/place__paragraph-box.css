@@ -3,7 +3,7 @@
     grid-row: 2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .place__paragraph-box {
         grid-column: 1;
         grid-row: auto;

@@ -7,10 +7,11 @@
     color: #fff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 758px) {
     .footer__copyright {
         line-height: 100%;
         margin-top: 48px;
+        margin-bottom: 24px;
         align-self: start;
     }
 }

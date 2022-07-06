@@ -12,6 +12,25 @@
     color: #fff;
 }
 
+@media screen and (max-width: 680px) {
+    .lead__subtitle {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .lead__subtitle {
+        margin-top: 16px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__subtitle {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .lead__subtitle {
         margin-top: 16px;
