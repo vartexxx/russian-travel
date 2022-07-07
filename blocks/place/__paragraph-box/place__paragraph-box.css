@@ -1,9 +1,10 @@
 .place__paragraph-box {
+    margin: 0;
     grid-column: 2;
     grid-row: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__paragraph-box {
         grid-column: 1;
         grid-row: auto;

@@ -5,7 +5,11 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 758px) {
+.footer__column-links:not(:last-child){
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 767px) {
     .footer__column-links {
         flex-direction: column;
     }

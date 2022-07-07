@@ -1,5 +1,5 @@
-.header__lang-link {
-    margin-left: 18px;
+.header__lang-link_selected {
+    margin: 0 auto;
     text-decoration: none;
     font-size: 24px;
     font-weight: 400;
@@ -7,14 +7,15 @@
     color: #fff;
     transition: opacity .5s linear;
     font-style: normal;
+    text-decoration: underline;
 }
 
-.header__lang-link:hover {
+.header__lang-link_selected:hover {
     opacity: 0.5;
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link {
+    .header__lang-link_selected {
         font-size: 18px;
         line-height: 111%;
     }

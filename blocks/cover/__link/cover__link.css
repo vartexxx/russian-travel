@@ -1,28 +1,13 @@
 .cover__link {
+    display: grid;
     margin: 0;
     padding: 0;
-    height: 740px;
     text-decoration: none;
-    max-height: 740px;
+    width: 100%;
+    height: 100%;
     grid-column: 1;
     grid-row: 1;
     z-index: 2;
-}
-
-@media screen and (max-width: 1280px) {
-    .cover__link {
-        height: 640px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__link {
-        height: 480px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__link {
-        height: 200px;
-    }
+    justify-content: center;
+    align-items: center;
 }
