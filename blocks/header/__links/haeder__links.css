@@ -1,4 +1,5 @@
 .header__links {
+    padding: 0;
     margin-bottom: 0;
     display: flex;
     list-style-type: none;
