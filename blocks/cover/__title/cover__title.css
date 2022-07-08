@@ -10,7 +10,7 @@
     max-width: 560px;
     align-self: end;
     text-align: center;
-    z-index: 1;
+    z-index: 3;
 }
 
 @media screen and (max-width: 767px) {

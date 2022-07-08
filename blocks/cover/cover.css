@@ -4,32 +4,12 @@
     max-width: 1184px;
     display: grid;
     grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
     position: relative;
-}
-
-.cover::before {
-    content: '';
-    position: absolute;
-    background: #2a2c2f;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.3;
-    transition: opacity .6s ease;
-    z-index: 1;
-}
-
-.cover:hover::before {
-    opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
-        min-height: 640px;
     }
 }
 
@@ -37,7 +17,6 @@
     .cover {
         margin-top: 90px;
         max-width: 768px;
-        min-height: 480px;
     }
 }
 
@@ -45,6 +24,5 @@
     .cover {
         margin-top: 66px;
         max-width: 320px;
-        min-height: 200px;
     }
 }
