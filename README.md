@@ -8,3 +8,5 @@
 * CSS
 * Flex
 * Grid Layout
+
+### Ссылка на проект (https://vartexxx.github.io/russian-travel/index.html)
